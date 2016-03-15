@@ -1,0 +1,26 @@
+package com.venkat.operators;
+
+public class Operators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = 5;
+		int y = 10;
+		
+		int result;
+		
+		result = x + y*2;
+		System.out.printf("x+y*2 = %d\n", result );
+		
+		result = x-y+2;
+		System.out.printf("x-y+2 = %d\n", result );
+		
+		result = (x+y)*2;
+		System.out.printf("(x+y)*2 = %d\n", result );
+		
+		result = y%x;
+		System.out.printf("y mod x = %d\n", result );
+		
+	}
+
+}
